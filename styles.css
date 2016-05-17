@@ -1,0 +1,15 @@
+.weather {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font: 20px sans-serif;
+}
+
+.weather > .city {
+  font-weight: bold;
+}
+
+.weather > .image {
+  width: 70%;
+}
